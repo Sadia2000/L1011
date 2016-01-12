@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+
+ <!-- 
+ Copyright Toryx 2014
+ Distributed under the terms of the GNU General Public Livense v2
+ -->
+
+<PropertyList>
+<!-- ................................................... -->
+<!-- Models -->
+<!-- ................................................... -->
+ 
+<model>
+ <name>Fuselage</name>
+ <path>Aircraft/L1011/Models/Fuselage.xml</path>
+ <offsets>
+  <x-m> 0.0</x-m>
+  <y-m> 0.0</y-m>
+  <z-m> 0.8</z-m>
+ </offsets>
+</model>
+
+<!--Add Flightdeck data/information here-->
+<!--
+<model>
+ <name>Flightdeck</name>
+ <path>Aircraft/L1011/Models/Interior/Interior.xml</path>
+ <offsets>
+  <x-m> 0.0</x-m>
+  <y-m> 0.0</y-m>
+  <z-m> 0.8</z-m>
+ </offsets>
+</model>
+-->
+<model>
+ <name>Engines</name>
+ <path>Aircraft/L1011/Models/RR-RB211-22.xml</path>
+ <offsets>
+  <x-m> 0.0</x-m>
+  <y-m> 0.0</y-m>
+  <z-m> 0.8</z-m>
+ </offsets>
+</model>
+
+<model>
+ <name>Gears</name>
+ <path>Aircraft/L1011/Models/Gears.xml</path>
+ <offsets>
+  <x-m> 0.0</x-m>
+  <y-m> 0.0</y-m>
+  <z-m> 0.8</z-m>
+ </offsets>
+</model>
+
+<model>
+ <name>Wings</name>
+ <path>Aircraft/L1011/Models/Wings.xml</path>
+ <offsets>
+  <x-m> 0.0</x-m>
+  <y-m> 0.0</y-m>
+  <z-m> 0.8</z-m>
+ </offsets>
+</model>
+
+<model>
+ <name>Tail</name>
+ <path>Aircraft/L1011/Models/Tail.xml</path>
+ <offsets>
+  <x-m> 0.0</x-m>
+  <y-m> 0.0</y-m>
+  <z-m> 0.8</z-m>
+ </offsets>
+</model>
+
+
+
+<!-- ................................................... -->
+<!-- Livery select -->
+<!-- ................................................... -->
+<nasal>
+ <load>
+  var livery_update = aircraft.livery_update.new("Aircraft/L1011/Models/Liveries");
+ </load>
+ 
+ <unload>
+  livery_update.stop();
+ </unload>
+</nasal>
+
+</PropertyList>

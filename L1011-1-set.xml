@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+Toryx 2014
+Distributed under the terms of the GNU General Public Livense v2
+-->
+
+<PropertyList>
+
+<sim>
+  <description>Lockheed L1011-1</description>
+  <aircraft-version>0.1</aircraft-version>
+  <status>alpha</status>
+  <rating>
+    <FDM type="int">1</FDM>
+    <systems type="int">0</systems>
+    <cockpit type="int">0</cockpit>
+    <model type="int">4</model>
+  </rating>
+  <author>Models: Toryx</author>
+  <flight-model>jsb</flight-model>
+  <aero>L1011-1</aero>
+  <variant>1</variant>
+  <engine>RB211-524B</engine>
+    
+	<!--
+	<engine>RR RB211</engine>
+  -->
+  
+  <startup>
+    <splash-texture>Aircraft/L1011/Splashs/splash-1.png</splash-texture>
+    <splash-title>Lockheed L1011-1 v0.1</splash-title>
+  </startup>
+  <flaps>
+    <setting>0.00</setting>
+    <setting>0.29</setting>
+    <setting>0.596</setting>
+    <setting>0.745</setting>
+    <setting>1</setting>
+  </flaps>
+
+
+  <model>
+    <path>Aircraft/L1011/Models/L1011-1.xml</path>
+    <livery>
+      <file type="string"/>
+    </livery>
+  </model>
+
+  <!--
+  <sound>
+    <path>Aircraft/L1011/Sounds/L1011-sound.xml</path>
+    <switch type = "bool">0</switch>
+    <Evolume>1</Evolume>
+  </sound>
+-->
+  
+  <view>
+    <internal archive="y">true</internal>
+    <config>
+      <x-offset-m archive="y">-0.5373</x-offset-m>
+      <y-offset-m archive="y">0.15</y-offset-m>
+      <z-offset-m archive="y">-22.7399</z-offset-m>
+      <pitch-offset-deg archive="y">-5.0</pitch-offset-deg>
+      <default-field-of-view-deg type="double">80.0</default-field-of-view-deg>
+    </config>
+  </view>
+  <chase-distance-m type="double">-80</chase-distance-m>
+  
+  
+  <menubar>
+    <default>
+      <menu n="100">
+	<label>Lockheed L1011-1</label>
+	<enabled type="bool">true</enabled>
+	<item>
+	  <label>Select Livery</label>
+	  <binding>
+	    <command>nasal</command>
+	    <script>aircraft.livery.dialog.open()</script>
+	  </binding>
+	</item>
+      </menu>
+    </default>
+  </menubar>
+</sim>
+
+<engines>
+  <engine n="0">
+    <running>true</running>
+    <rpm>1000</rpm>
+    <reverser-position type="double">0.000000</reverser-position>
+  </engine>
+  <engine n="1">
+    <running>true</running>
+    <rpm>1000</rpm>
+    <reverser-position type="double">0.000000</reverser-position>
+  </engine>
+  <engine n="2">
+    <running>true</running>
+    <rpm>1000</rpm>
+    <reverser-position type="double">0.000000</reverser-position>
+  </engine>
+</engines>	
+
+<nasal>
+  <L1011> 
+    <file>Aircraft/L1011/Nasal/liveries.nas</file>
+  </L1011>
+</nasal> 
+
+</PropertyList>

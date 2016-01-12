@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+
+ <!-- 
+ Copyright Toryx 2014
+ Distributed under the terms of the GNU General Public Livense v2
+ -->
+
+<PropertyList>
+	<path>Fuselage.ac</path> 
+
+
+ <animation>
+        <type>shader</type>
+        <shader>chrome</shader>
+        <texture>glassshade.png</texture>
+        <object-name>Windshield</object-name>
+ </animation>
+
+
+ <animation>
+  <type>material</type>
+   <object-name>Rumpf</object-name>
+   <property-base>sim/model/livery</property-base>
+   <texture-prop>texture</texture-prop>
+   <texture>Liveries/LTU90.png</texture>
+ </animation>
+
+</PropertyList>

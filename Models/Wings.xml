@@ -1,0 +1,548 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+
+ <!-- 
+ Copyright Toryx 2014
+ Distributed under the terms of the GNU General Public Livense v2
+ -->
+
+<PropertyList>
+
+ <path>Aircraft/L1011/Models/Wings.ac</path>
+  
+<!-- Ailerons -->
+<!-- Left outside-->
+<animation>
+  <type>rotate</type>
+  <object-name>aileron_l_o</object-name>
+  <property>surface-positions/right-aileron-pos-norm</property>
+  <factor>20</factor>
+  <offset-deg>0</offset-deg>
+  <axis> 
+   <x1-m>15.26783</x1-m>
+   <y1-m>-23.69068</y1-m>
+   <z1-m>0.81575</z1-m>
+   <x2-m>13.1464</x2-m>
+   <y2-m>-20.02108</y2-m>
+   <z2-m>0.5578</z2-m>
+  </axis>
+</animation>
+
+<!-- Right outside-->
+<animation>
+  <type>rotate</type>
+  <object-name>aileron_r_o</object-name>
+  <property>surface-positions/right-aileron-pos-norm</property>
+  <factor>20</factor>
+  <offset-deg>0</offset-deg>
+  <axis> 
+   <x1-m>15.26783</x1-m>
+   <y1-m>23.69068</y1-m>
+   <z1-m>0.81575</z1-m>
+   <x2-m>13.1464</x2-m>
+   <y2-m>20.02108</y2-m>
+   <z2-m>0.5578</z2-m>
+  </axis>
+</animation>
+
+<!-- Left inside-->
+<animation>
+  <type>rotate</type>
+  <object-name>aileron_l_i</object-name>
+  <property>surface-positions/right-aileron-pos-norm</property>
+  <factor>20</factor>
+  <offset-deg>0</offset-deg>
+  <axis> 
+   <x1-m>9.11104</x1-m>
+   <y1-m>-12.06426</y1-m>
+   <z1-m>-0.07938</z1-m>
+   <x2-m>8.12167</x2-m>
+   <y2-m>-9.91744</y2-m>
+   <z2-m>-0.25981</z2-m>
+  </axis>
+</animation>
+
+<!-- Right inside-->
+<animation>
+  <type>rotate</type>
+  <object-name>aileron_r_i</object-name>
+  <property>surface-positions/right-aileron-pos-norm</property>
+  <factor>20</factor>
+  <offset-deg>0</offset-deg>
+  <axis> 
+   <x1-m>9.11104</x1-m>
+   <y1-m>12.06426</y1-m>
+   <z1-m>-0.07938</z1-m>
+   <x2-m>8.12167</x2-m>
+   <y2-m>9.91744</y2-m>
+   <z2-m>-0.25981</z2-m>
+  </axis>
+</animation>  
+  
+
+
+<!-- ................................................... -->
+<!-- Flaps + Fairings -->
+<!-- ................................................... -->
+<!-- Flaps -->
+<!-- ................................................... -->
+<!-- Left outside-->
+<animation>
+ <type>rotate</type>
+ <object-name>flap_l_o</object-name>
+ <property>surface-positions/flap-pos-norm</property>
+  <interpolation>
+     <entry><ind> 0.0</ind><dep> 0.0</dep></entry>
+     <entry><ind> 0.3866</ind><dep>  0.0</dep></entry>
+     <entry><ind> 0.7946</ind><dep> 10.0</dep></entry>
+     <entry><ind> 0.9933</ind><dep> 17.0</dep></entry>
+     <entry><ind> 1.3333</ind><dep> 26.0</dep></entry>
+  </interpolation>
+ <axis>
+  <x1-m>12.78168</x1-m>
+  <y1-m>-19.11111</y1-m>
+  <z1-m>0.48792</z1-m>
+  <x2-m>8.84795</x2-m>
+  <y2-m>-12.31219</y2-m>
+  <z2-m>-0.06788</z2-m>
+ </axis>
+</animation>
+
+<animation>
+  <type>translate</type>
+  <object-name>flap_l_o</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.7</factor>
+  <offset-m>0</offset-m>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+<!-- Left inside-->
+<animation>
+ <type>rotate</type>
+ <object-name>flap_l_i</object-name>
+ <property>surface-positions/flap-pos-norm</property>
+  <interpolation>
+     <entry><ind> 0.0</ind><dep> 0.0</dep></entry>
+     <entry><ind> 0.3866</ind><dep>  0.0</dep></entry>
+     <entry><ind> 0.7946</ind><dep> 10.0</dep></entry>
+     <entry><ind> 0.9933</ind><dep> 17.0</dep></entry>
+     <entry><ind> 1.3333</ind><dep> 26.0</dep></entry>
+  </interpolation>
+ <axis>
+  <x1-m>7.76707</x1-m>
+  <y1-m>-9.8154</y1-m>
+  <z1-m>-0.26819</z1-m>
+  <x2-m>6.67957</x2-m>
+  <y2-m>-2.9576</y2-m>
+  <z2-m>-0.9118</z2-m>
+ </axis>
+</animation>
+
+<animation>
+  <type>translate</type>
+  <object-name>flap_l_i</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.5</factor>
+  <offset-m>0</offset-m>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+<!-- Right outside-->
+<animation>
+ <type>rotate</type>
+ <object-name>flap_r_o</object-name>
+ <property>surface-positions/flap-pos-norm</property>
+  <interpolation>
+     <entry><ind> 0.0</ind><dep> 0.0</dep></entry>
+     <entry><ind> 0.3866</ind><dep>  0.0</dep></entry>
+     <entry><ind> 0.7946</ind><dep> 10.0</dep></entry>
+     <entry><ind> 0.9933</ind><dep> 17.0</dep></entry>
+     <entry><ind> 1.3333</ind><dep> 26.0</dep></entry>
+  </interpolation>
+ <axis>
+  <x2-m>12.78168</x2-m>
+  <y2-m>19.11111</y2-m>
+  <z2-m>0.48792</z2-m>
+  <x1-m>8.84795</x1-m>
+  <y1-m>12.31219</y1-m>
+  <z1-m>-0.06788</z1-m>
+ </axis>
+</animation>
+
+<animation>
+  <type>translate</type>
+  <object-name>flap_r_o</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.7</factor>
+  <offset-m>0</offset-m>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+<!-- Right inside-->
+<animation>
+ <type>rotate</type>
+ <object-name>flap_r_i</object-name>
+ <property>surface-positions/flap-pos-norm</property>
+  <interpolation>
+     <entry><ind> 0.0</ind><dep> 0.0</dep></entry>
+     <entry><ind> 0.3866</ind><dep>  0.0</dep></entry>
+     <entry><ind> 0.7946</ind><dep> 10.0</dep></entry>
+     <entry><ind> 0.9933</ind><dep> 17.0</dep></entry>
+     <entry><ind> 1.3333</ind><dep> 26.0</dep></entry>
+  </interpolation>
+ <axis>
+  <x2-m>7.76707</x2-m>
+  <y2-m>9.8154</y2-m>
+  <z2-m>-0.26819</z2-m>
+  <x1-m>6.67957</x1-m>
+  <y1-m>2.9576</y1-m>
+  <z1-m>-0.9118</z1-m>
+ </axis>
+</animation>
+
+<animation>
+  <type>translate</type>
+  <object-name>flap_r_i</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.5</factor>
+  <offset-m>0</offset-m>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ 
+<!-- Fairings -->
+<!-- ................................................... -->
+<!-- 1 -->
+<animation>
+ <type>rotate</type>
+ <object-name>f1</object-name>
+ <property>surface-positions/flap-pos-norm</property>
+   <interpolation>
+     <entry><ind> 0.0</ind><dep> 0.0</dep></entry>
+     <entry><ind> 0.3866</ind><dep>  0.0</dep></entry>
+     <entry><ind> 0.7946</ind><dep> 8.0</dep></entry>
+     <entry><ind> 0.9933</ind><dep> 18.0</dep></entry>
+     <entry><ind> 1.3333</ind><dep> 25.0</dep></entry>
+  </interpolation>
+  <axis>
+  <x1-m>6.85931</x1-m>
+  <y1-m>-6.74617</y1-m>
+  <z1-m>-0.76281</z1-m>
+  <x2-m>6.85931</x2-m>
+  <y2-m>6.74617</y2-m>
+  <z2-m>-0.76281</z2-m>
+ </axis>
+</animation>
+
+<!-- 2 - inner half-->
+<animation>
+ <type>rotate</type>
+ <object-name>f2i</object-name>
+ <property>surface-positions/flap-pos-norm</property>
+   <interpolation>
+     <entry><ind> 0.0</ind><dep> 0.0</dep></entry>
+     <entry><ind> 0.3866</ind><dep>  0.0</dep></entry>
+     <entry><ind> 0.7946</ind><dep> 7.0</dep></entry>
+     <entry><ind> 0.9933</ind><dep> 15.0</dep></entry>
+     <entry><ind> 1.3333</ind><dep> 22.0</dep></entry>
+  </interpolation>
+  <axis>
+  <x1-m>7.12287</x1-m>
+  <y1-m>-9.78902</y1-m>
+  <z1-m>-0.38389</z1-m>
+  <x2-m>7.12287</x2-m>
+  <y2-m>9.78902</y2-m>
+  <z2-m>-0.38389</z2-m>
+ </axis>
+</animation>
+
+<!-- 3 - outer half-->
+<animation>
+ <type>rotate</type>
+ <object-name>f3o</object-name>
+ <property>surface-positions/flap-pos-norm</property>
+   <interpolation>
+     <entry><ind> 0.0</ind><dep> 0.0</dep></entry>
+     <entry><ind> 0.3866</ind><dep>  0.0</dep></entry>
+     <entry><ind> 0.7946</ind><dep> 7.0</dep></entry>
+     <entry><ind> 0.9933</ind><dep> 16.0</dep></entry>
+     <entry><ind> 1.3333</ind><dep> 20.0</dep></entry>
+  </interpolation>
+  <axis>
+  <x1-m>8.23816</x1-m>
+  <y1-m>-12.26273</y1-m>
+  <z1-m>-0.19043</z1-m>
+  <x2-m>8.23816</x2-m>
+  <y2-m>12.26273</y2-m>
+  <z2-m>-0.19043</z2-m>
+ </axis>
+</animation>
+   
+<!-- 4-->
+<animation>
+ <type>rotate</type>
+ <object-name>f4</object-name>
+ <property>surface-positions/flap-pos-norm</property>
+   <interpolation>
+     <entry><ind> 0.0</ind><dep> 0.0</dep></entry>
+     <entry><ind> 0.3866</ind><dep>  0.0</dep></entry>
+     <entry><ind> 0.7946</ind><dep> 7.0</dep></entry>
+     <entry><ind> 0.9933</ind><dep> 16.0</dep></entry>
+     <entry><ind> 1.3333</ind><dep> 20.0</dep></entry>
+  </interpolation>
+  <axis>
+  <x1-m>10.47232</x1-m>
+  <y1-m>-16.10785</y1-m>
+  <z1-m>0.12098</z1-m>
+  <x2-m>10.47232</x2-m>
+  <y2-m>16.10785</y2-m>
+  <z2-m>0.12098</z2-m>
+ </axis>
+</animation>
+
+<!-- 5 - inner half-->
+<animation>
+ <type>rotate</type>
+ <object-name>f5i</object-name>
+ <property>surface-positions/flap-pos-norm</property>
+   <interpolation>
+     <entry><ind> 0.0</ind><dep> 0.0</dep></entry>
+     <entry><ind> 0.3866</ind><dep>  0.0</dep></entry>
+     <entry><ind> 0.7946</ind><dep> 7.0</dep></entry>
+     <entry><ind> 0.9933</ind><dep> 15.0</dep></entry>
+     <entry><ind> 1.3333</ind><dep> 20.0</dep></entry>
+  </interpolation>
+  <axis>
+  <x1-m>12.30439</x1-m>
+  <y1-m>-19.15279</y1-m>
+  <z1-m>0.36654</z1-m>
+  <x2-m>12.30439</x2-m>
+  <y2-m>19.15279</y2-m>
+  <z2-m>0.36654</z2-m>
+ </axis>
+</animation>
+
+
+<!-- Spoiler-->
+<!-- ................................................... -->
+<!-- Aileron assist-->
+<!-- 5+6 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb6</object-name>
+  <object-name>sb5</object-name>
+  <property>surface-positions/left-aileron-pos-norm</property>
+ <factor>15</factor>		 
+   <condition>
+   <less-than>
+    <property>surface-positions/left-aileron-pos-norm</property>
+    <value>0</value>
+   </less-than>
+  </condition>
+
+  <property>controls/flight/spoilers</property>
+ <axis>
+  <x1-m>7.45644</x1-m>
+  <y1-m>-9.8151</y1-m>
+  <z1-m>-0.11389</z1-m>
+   <x2-m>6.48252</x2-m>
+   <y2-m>-2.95136</y2-m>
+   <z2-m>-0.69287</z2-m>
+ </axis>
+</animation>
+  
+<!-- 3+4 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb3</object-name>
+  <object-name>sb4</object-name>
+  <property>surface-positions/left-aileron-pos-norm</property>
+ <factor>15</factor>		 
+   <condition>
+   <less-than>
+    <property>surface-positions/left-aileron-pos-norm</property>
+    <value>0</value>
+   </less-than>
+  </condition>
+
+  <property>controls/flight/spoilers</property>
+ <axis>
+  <x1-m>10.5986</x1-m>
+  <y1-m>-15.94956</y1-m>
+  <z1-m>0.36131</z1-m>
+   <x2-m>8.64378</x2-m>
+   <y2-m>-12.31024</y2-m>
+   <z2-m>0.07926</z2-m>
+ </axis>
+</animation>
+   
+<!-- 7+8 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb7</object-name>
+  <object-name>sb8</object-name>
+  <property>surface-positions/right-aileron-pos-norm</property>
+ <factor>15</factor>		 
+   <condition>
+   <greater-than>
+    <property>surface-positions/right-aileron-pos-norm</property>
+    <value>0</value>
+   </greater-than>
+  </condition>
+
+  <property>controls/flight/spoilers</property>
+ <axis>
+  <x1-m>7.45644</x1-m>
+  <y1-m>9.8151</y1-m>
+  <z1-m>-0.11389</z1-m>
+   <x2-m>6.48252</x2-m>
+   <y2-m>2.95136</y2-m>
+   <z2-m>-0.69287</z2-m>
+ </axis>
+</animation>
+  
+<!-- 9+10 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb9</object-name>
+  <object-name>sb10</object-name>
+  <property>surface-positions/right-aileron-pos-norm</property>
+ <factor>15</factor>		 
+   <condition>
+   <greater-than>
+    <property>surface-positions/right-aileron-pos-norm</property>
+    <value>0</value>
+   </greater-than>
+  </condition>
+
+  <property>controls/flight/spoilers</property>
+ <axis>
+  <x1-m>10.5986</x1-m>
+  <y1-m>15.94956</y1-m>
+  <z1-m>0.36131</z1-m>
+   <x2-m>8.64378</x2-m>
+   <y2-m>12.31024</y2-m>
+   <z2-m>0.07926</z2-m>
+ </axis>
+</animation>
+   
+<!-- Break -->
+<!-- 1+2 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb1</object-name>
+  <object-name>sb2</object-name>
+  <property>surface-positions/spoiler-pos-norm</property>
+ <factor>-50</factor>		 
+ <axis>
+  <x1-m>12.41929</x1-m>
+  <y1-m>-19.1169</y1-m>
+  <z1-m>0.5953</z1-m>
+  <x2-m>10.80557</x2-m>
+  <y2-m>-16.26472</y2-m>
+  <z2-m>0.3796</z2-m>
+ </axis>
+</animation>
+
+<!-- 3+4 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb3</object-name>
+  <object-name>sb4</object-name>
+  <property>surface-positions/spoiler-pos-norm</property>
+ <factor>-50</factor>		 
+ <axis>
+  <x1-m>10.5986</x1-m>
+  <y1-m>-15.94956</y1-m>
+  <z1-m>0.36131</z1-m>
+   <x2-m>8.64378</x2-m>
+   <y2-m>-12.31024</y2-m>
+   <z2-m>0.07926</z2-m>
+ </axis>
+</animation>
+
+<!-- 5+6 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb5</object-name>
+  <object-name>sb6</object-name>
+  <property>surface-positions/spoiler-pos-norm</property>
+ <factor>-50</factor>		 
+ <axis>
+  <x1-m>7.45644</x1-m>
+  <y1-m>-9.8151</y1-m>
+  <z1-m>-0.11389</z1-m>
+   <x2-m>6.48252</x2-m>
+   <y2-m>-2.95136</y2-m>
+   <z2-m>-0.69287</z2-m>
+ </axis>
+</animation>
+  
+<!-- 11+12 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb11</object-name>
+  <object-name>sb12</object-name>
+  <property>surface-positions/spoiler-pos-norm</property>
+ <factor>50</factor>		 
+ <axis>
+  <x1-m>12.41929</x1-m>
+  <y1-m>19.1169</y1-m>
+  <z1-m>0.5953</z1-m>
+  <x2-m>10.80557</x2-m>
+  <y2-m>16.26472</y2-m>
+  <z2-m>0.3796</z2-m>
+ </axis>
+</animation>
+
+<!-- 9+10 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb9</object-name>
+  <object-name>sb10</object-name>
+  <property>surface-positions/spoiler-pos-norm</property>
+ <factor>50</factor>		 
+ <axis>
+  <x1-m>10.5986</x1-m>
+  <y1-m>15.94956</y1-m>
+  <z1-m>0.36131</z1-m>
+   <x2-m>8.64378</x2-m>
+   <y2-m>12.31024</y2-m>
+   <z2-m>0.07926</z2-m>
+ </axis>
+</animation>
+
+<!-- 7+8 -->
+<animation>
+  <type>rotate</type>
+  <object-name>sb7</object-name>
+  <object-name>sb8</object-name>
+  <property>surface-positions/spoiler-pos-norm</property>
+ <factor>50</factor>		 
+ <axis>
+  <x1-m>7.45644</x1-m>
+  <y1-m>9.8151</y1-m>
+  <z1-m>-0.11389</z1-m>
+   <x2-m>6.48252</x2-m>
+   <y2-m>2.95136</y2-m>
+   <z2-m>-0.69287</z2-m>
+ </axis>
+</animation>
+  
+</PropertyList>

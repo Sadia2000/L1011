@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <!-- FLIGHTDECK -->
+  <model>
+    <path>Aircraft/L1011/Models/Interior/FlightDeck/Flightdeck.xml</path>
+
+  </model>
+  
+  <model>
+ <name>Lights-Rembrandt-Flightdeck</name>
+ <path>Aircraft/L1011/Models/Interior/FlightDeck/Lights-Rembrandt-Flightdeck.xml</path>
+ <offsets>
+  <x-m> 0.0</x-m>
+  <y-m> 0.0</y-m>
+  <z-m> 0.0</z-m>
+ </offsets>
+</model>
+
+<animation>
+	<type>select</type>
+	 <object-name>Lights-Rembrandt-Flightdeck</object-name>
+	<condition>
+		<property>/sim/rendering/rembrandt/enabled</property>
+	</condition>
+</animation>
+</PropertyList>
+

@@ -1,0 +1,551 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+
+ <!-- 
+ Copyright Toryx 2014
+ Distributed under the terms of the GNU General Public Livense v2
+ -->
+
+<PropertyList>
+ 
+
+ <path>Aircraft/L1011/Models/Gears.ac</path>
+
+<!-- ................................................... -->
+<!-- Animations -->
+<!-- ................................................... -->
+ <animation>
+  <type>material</type>
+   <object-name>gear_front</object-name>
+   <object-name>gear_left_1</object-name>
+   <object-name>gear_left_2</object-name>
+   <object-name>gear_right_1</object-name>
+   <object-name>gear_right_2</object-name>
+   
+   <object-name>gear_front_leg</object-name>
+   <object-name>gear_left_leg</object-name>
+   <object-name>gear_right_leg</object-name>
+   
+   <object-name>gear_cover_l_i</object-name>
+   <object-name>gear_cover_r_i</object-name>
+   <object-name>gear_cover_l_o</object-name>
+   <object-name>gear_cover_r_o</object-name>
+   <object-name>gear_cover_f1</object-name>
+   <object-name>gear_cover_f2</object-name>
+   <object-name>gear_cover_f3</object-name>
+   <object-name>gear_cover_f4</object-name>
+   <property-base>sim/model/livery</property-base>
+   <texture-prop>texture</texture-prop>
+   <texture>Liveries/LTU90.png</texture>
+ </animation>
+ 
+<!--Disable when invisible-->
+<animation>
+ <type>select</type>
+ <object-name>gear_front</object-name>  
+ <object-name>gear_front_leg</object-name>  
+ <object-name>gear_left_1</object-name>  
+ <object-name>gear_left_2</object-name>
+ <object-name>gear_right_1</object-name>  
+ <object-name>gear_right_2</object-name>  
+ <object-name>gear_left_leg</object-name>  
+ <object-name>gear_right_leg</object-name> 
+ <condition>
+  <greater-than>
+   <property>gear/gear/position-norm</property> 
+   <value>0.0</value>
+  </greater-than>
+ </condition>
+</animation>
+
+<!--Steering-->
+<!--Front-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_front</object-name> 
+ <property>gear/gear[0]/steering-norm</property>  
+ <factor>-30</factor>
+ <center>
+		<x-m>-16.35296</x-m>
+		<y-m>0</y-m>
+		<z-m>-4.06968</z-m>
+ </center>
+ <axis>
+  <x>0</x>
+  <y>0</y>
+  <z>1</z>
+ </axis>
+</animation>
+
+
+<!--Spin wheels-->
+<!--Front-->
+<animation>
+	<type>spin</type>
+	<object-name>gear_front</object-name>
+	<property>gear/gear[0]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>-16.35296</x-m>
+		<y-m>0</y-m>
+		<z-m>-4.06968</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<!--Left-->
+<animation>
+	<type>spin</type>
+	<object-name>gear_left_1</object-name>
+	<property>gear/gear[1]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>4.67082</x-m>
+		<y-m>-5.5877</y-m>
+		<z-m>-3.82244</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>spin</type>
+	<object-name>gear_left_2</object-name>
+	<property>gear/gear[1]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>6.26725</x-m>
+		<y-m>-5.59564</y-m>
+		<z-m>-3.82004</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+ 
+<!--Right-->
+<animation>
+	<type>spin</type>
+	<object-name>gear_right_1</object-name>
+	<property>gear/gear[2]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>4.67082</x-m>
+		<y-m>5.5877</y-m>
+		<z-m>-3.82244</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>spin</type>
+	<object-name>gear_right_2</object-name>
+	<property>gear/gear[2]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>6.26725</x-m>
+		<y-m>5.59564</y-m>
+		<z-m>-3.82004</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+ 
+
+<!--Retract-->
+<!--Gear Front-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_front</object-name>  
+ <object-name>gear_front_leg</object-name> 
+ <property>gear/gear[0]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>110</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>110</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>0</dep>
+   </entry>
+ </interpolation>
+ <center>
+  <x-m>-16.33728</x-m>
+  <y-m>0.0</y-m>
+  <z-m>-1.86608</z-m>
+ </center>
+ <axis>
+  <x>0</x>
+  <y>1</y>
+  <z>0</z>
+ </axis>
+</animation>
+
+<!--Cover Front-->
+<!--Cover left Front 1-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_cover_f1</object-name>  
+ <property>gear/gear[0]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>90</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>90</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>0</dep>
+   </entry>
+ </interpolation>
+ <axis>
+  <x2-m>-19.16748</x2-m>
+  <y2-m>-0.68182</y2-m>
+  <z2-m>-2.14476</z2-m>
+  <x1-m>-16.05699</x1-m>
+  <y1-m>-0.68182</y1-m>
+  <z1-m>-2.39207</z1-m>
+ </axis>
+</animation>
+
+<!--Cover left Front 3-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_cover_f3</object-name>  
+ <property>gear/gear[0]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>90</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>90</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>60</dep>
+   </entry>
+ </interpolation>
+ <axis>
+  <x2-m>-19.16748</x2-m>
+  <y2-m>-0.68182</y2-m>
+  <z2-m>-2.14476</z2-m>
+  <x1-m>-16.05699</x1-m>
+  <y1-m>-0.68182</y1-m>
+  <z1-m>-2.39207</z1-m>
+ </axis>
+</animation>
+
+<!--Cover left Front 1-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_cover_f2</object-name>  
+ <property>gear/gear[0]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>0</dep>
+   </entry>
+ </interpolation>
+ <axis>
+  <x2-m>-19.16748</x2-m>
+  <y2-m>0.68182</y2-m>
+  <z2-m>-2.14476</z2-m>
+  <x1-m>-16.05699</x1-m>
+  <y1-m>0.68182</y1-m>
+  <z1-m>-2.39207</z1-m>
+ </axis>
+</animation>
+
+<!--Cover right front 3-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_cover_f4</object-name>  
+ <property>gear/gear[0]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>-60</dep>
+   </entry>
+ </interpolation>
+ <axis>
+  <x2-m>-19.16748</x2-m>
+  <y2-m>0.68182</y2-m>
+  <z2-m>-2.14476</z2-m>
+  <x1-m>-16.05699</x1-m>
+  <y1-m>0.68182</y1-m>
+  <z1-m>-2.39207</z1-m>
+ </axis>
+</animation>
+
+
+
+<!--Gear left-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_left_1</object-name>  
+ <object-name>gear_left_2</object-name>  
+ <object-name>gear_left_leg</object-name> 
+ <property>gear/gear[1]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>90</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>90</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>0</dep>
+   </entry>
+ </interpolation>
+ <center>
+  <x-m>5.34786</x-m>
+  <y-m>-4.77124</y-m>
+  <z-m>-0.82251</z-m>
+ </center>
+ <axis>
+  <x>1</x>
+  <y>0</y>
+  <z>0</z>
+ </axis>
+</animation>
+
+<!--Cover left inside-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_cover_l_i</object-name>  
+ <property>gear/gear[1]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>0</dep>
+   </entry>
+ </interpolation>
+ <axis>
+  <x1-m>7.10982</x1-m>
+  <y1-m>-1.0884</y1-m>
+  <z1-m>-2.40072</z1-m>
+  <x2-m>3.57205</x2-m>
+  <y2-m>-1.0884</y2-m>
+  <z2-m>-2.42406</z2-m>
+ </axis>
+</animation>
+
+<!--Cover left outside-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_cover_l_o</object-name>  
+ <property>gear/gear[1]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>60</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>60</dep>
+   </entry>
+ </interpolation>
+ <axis>
+  <x1-m>6.46402</x1-m>
+  <y1-m>-5.93581</y1-m>
+  <z1-m>-0.93036</z1-m>
+  <x2-m>5.00202</x2-m>
+  <y2-m>-5.93581</y2-m>
+  <z2-m>-1.13832</z2-m>
+ </axis>
+</animation>
+
+
+<!--Gear right-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_right_1</object-name>  
+ <object-name>gear_right_2</object-name>  
+ <object-name>gear_right_leg</object-name> 
+ <property>gear/gear[1]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>0</dep>
+   </entry>
+ </interpolation>
+ <center>
+  <x-m>5.34786</x-m>
+  <y-m>4.77124</y-m>
+  <z-m>-0.82251</z-m>
+ </center>
+ <axis>
+  <x>1</x>
+  <y>0</y>
+  <z>0</z>
+ </axis>
+</animation>
+
+<!--Cover left inside-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_cover_r_i</object-name>  
+ <property>gear/gear[2]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>90</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>90</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>0</dep>
+   </entry>
+ </interpolation>
+ <axis>
+  <x1-m>7.10982</x1-m>
+  <y1-m>1.0884</y1-m>
+  <z1-m>-2.40072</z1-m>
+  <x2-m>3.57205</x2-m>
+  <y2-m>1.0884</y2-m>
+  <z2-m>-2.42406</z2-m>
+ </axis>
+</animation>
+
+<!--Cover left outside-->
+<animation>
+ <type>rotate</type>
+ <object-name>gear_cover_r_o</object-name>  
+ <property>gear/gear[1]/position-norm</property>  
+ <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.1</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>0.8</ind>
+    <dep>-60</dep>
+   </entry>
+   <entry>
+    <ind>1.0</ind>
+    <dep>-60</dep>
+   </entry>
+ </interpolation>
+ <axis>
+  <x1-m>6.46402</x1-m>
+  <y1-m>5.93581</y1-m>
+  <z1-m>-0.93036</z1-m>
+  <x2-m>5.00202</x2-m>
+  <y2-m>5.93581</y2-m>
+  <z2-m>-1.13832</z2-m>
+ </axis>
+</animation>
+
+
+
+</PropertyList>
