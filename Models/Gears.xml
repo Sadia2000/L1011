@@ -10,6 +10,36 @@
 
  <path>Aircraft/L1011/Models/Gears.ac</path>
 
+ <animation>
+  <type>material</type>
+   <object-name>gear_cover_f1</object-name>
+   <object-name>gear_cover_f2</object-name>
+   <object-name>gear_cover_f3</object-name>
+   <object-name>gear_cover_f4</object-name>
+   <object-name>gear_cover_l_i</object-name>
+   <object-name>gear_cover_r_i</object-name>
+   <object-name>gear_cover_l_o</object-name>
+   <object-name>gear_cover_r_o</object-name>
+   <property-base>sim/model/livery</property-base>
+   <texture-prop>texture</texture-prop>
+   <texture>Liveries/LTU90.png</texture>
+ </animation>
+
+	<!-- Shaders -->
+	<effect>
+		<inherits-from>Effects/L1011-combShaders</inherits-from>
+		<!-- GearCovers -->
+               <object-name>gear_cover_f1</object-name>
+               <object-name>gear_cover_f2</object-name>
+               <object-name>gear_cover_f3</object-name>
+               <object-name>gear_cover_f4</object-name>
+               <object-name>gear_cover_l_i</object-name>
+               <object-name>gear_cover_r_i</object-name>
+               <object-name>gear_cover_l_o</object-name>
+               <object-name>gear_cover_r_o</object-name>
+	</effect>
+
+
 <!-- ................................................... -->
 <!-- Animations -->
 <!-- ................................................... -->
