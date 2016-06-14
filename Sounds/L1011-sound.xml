@@ -5,7 +5,7 @@
 <fx>
   <engine>
     <name>left engine</name>
-    <path>Aircraft/A310/Sounds/jet.wav</path>
+    <path>Aircraft/L1011/Sounds/jet.wav</path>
     <mode>looped</mode>
     <condition>
       <not>
@@ -32,7 +32,7 @@
   </engine>
   <engine>
     <name>left n1</name>
-    <path>Aircraft/A310/Sounds/whine.wav</path>
+    <path>Aircraft/L1011/Sounds/whine.wav</path>
     <mode>looped</mode>
     <property>engines/engine[0]/n1</property>
     <volume>
@@ -64,7 +64,7 @@
 
   <engine>
     <name>right engine</name>
-    <path>Aircraft/A310/Sounds/jet.wav</path>
+    <path>Aircraft/L1011/Sounds/jet.wav</path>
     <mode>looped</mode>
     <condition>
       <not>
@@ -91,7 +91,7 @@
 
   <engine>
     <name>right n1</name>
-    <path>Aircraft/A310/Sounds/whine.wav</path>
+    <path>Aircraft/L1011/Sounds/whine.wav</path>
     <mode>looped</mode>
     <property>engines/engine[1]/n1</property>
     <volume>
@@ -122,7 +122,7 @@
   <rumble>
     <name>rumble</name>
     <mode>looped</mode>
-    <path>Aircraft/A310/Sounds/rumble.wav</path>
+    <path>Aircraft/L1011/Sounds/rumble.wav</path>
     <condition>
       <or>
 	<property>/gear/gear[0]/wow</property>
@@ -140,7 +140,7 @@
   <gear>
     <name>gear</name>
     <mode>in-transit</mode>
-    <path>Aircraft/A310/Sounds/gear.wav</path>
+    <path>Aircraft/L1011/Sounds/gear.wav</path>
     <property>/gear/gear[0]/position-norm</property>
     <pitch>
       <internal>dt_play</internal>
@@ -151,7 +151,7 @@
 
   <gear>
     <name>gear-lock</name>
-    <path>Aircraft/A310/Sounds/gear-lck.wav</path>
+    <path>Aircraft/L1011/Sounds/gear-lck.wav</path>
     <condition>
       <equals>
 	<property>/gear/gear[0]/position-norm</property>
@@ -162,7 +162,7 @@
   <!-- 
   <gear>
     <name>gear-horn</name>
-    <path>Aircraft/A310/Sounds/gear-hrn.wav</path>
+    <path>Aircraft/L1011/Sounds/gear-hrn.wav</path>
     <mode>looped</mode>
     <condition>
       <equals>
@@ -175,7 +175,7 @@
 
   <squeal>
     <name>squeal</name>
-    <path>Aircraft/A310/Sounds/squeal.wav</path>
+    <path>Aircraft/L1011/Sounds/squeal.wav</path>
     <condition>
       <or>
 	<property>/gear/gear[0]/wow</property>
@@ -206,7 +206,7 @@
   <flap>
     <name>flaps</name>
     <mode>in-transit</mode>
-    <path>Aircraft/A310/Sounds/flaps.wav</path>
+    <path>Aircraft/L1011/Sounds/flaps.wav</path>
     <property>/surface-positions/flap-pos-norm</property>
     <volume>
       <factor>0.45</factor>
@@ -216,7 +216,7 @@
   <wind>
     <name>wind</name>
     <mode>looped</mode>
-    <path>Aircraft/A310/Sounds/wind.wav</path>
+    <path>Aircraft/L1011/Sounds/wind.wav</path>
     <property>/velocities/airspeed-kt</property>
     <volume>
       <property>/position/altitude-ft</property>
@@ -241,7 +241,7 @@
   <overspeed>
     <name>overspeed</name>
     <mode>looped</mode>
-    <path>Aircraft/A310/Sounds/overspeed2.wav</path>
+    <path>Aircraft/L1011/Sounds/overspeed2.wav</path>
     <condition>
       <greater-than>
 	<property>velocities/airspeed-kt</property>
@@ -265,7 +265,7 @@
   <stall>
     <name>stall</name>
     <mode>looped</mode>
-    <path>/Aircraft/A310/Sounds/stall.wav</path>
+    <path>/Aircraft/L1011/Sounds/stall.wav</path>
     <condition>
       <less-than>
         <property>velocities/airspeed-kt</property>
@@ -298,7 +298,7 @@
   <!-- no binding yet?
   <click>
     <name>click</name>
-    <path>Aircraft/A310/Sounds/click.wav</path>
+    <path>Aircraft/L1011/Sounds/click.wav</path>
   </click>
   -->
 
@@ -308,7 +308,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-10.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-10.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -330,7 +330,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-20.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-20.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -352,7 +352,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-30.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-30.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -374,7 +374,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-40.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-40.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -396,7 +396,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-50.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-50.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -418,7 +418,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-100.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-100.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -440,7 +440,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-200.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-200.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -462,7 +462,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-300.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-300.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -484,7 +484,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-400.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-400.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -506,7 +506,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-500.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-500.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>
@@ -528,7 +528,7 @@
     <reference-dist>1.0</reference-dist>
     <max-dist>2.0</max-dist>
     <mode>once</mode>
-    <path>Aircraft/A310/Sounds/altitude-1000.wav</path>
+    <path>Aircraft/L1011/Sounds/altitude-1000.wav</path>
     <condition>
       <less-than-equals>
         <property>position/altitude-agl-ft</property>

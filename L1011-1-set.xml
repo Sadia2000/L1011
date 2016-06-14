@@ -15,7 +15,7 @@ Distributed under the terms of the GNU General Public Livense v2
     <FDM type="int">1</FDM>
     <systems type="int">0</systems>
     <cockpit type="int">0</cockpit>
-    <model type="int">4</model>
+    <model type="int">2</model>
   </rating>
   <author>Models: Toryx</author>
   <flight-model>jsb</flight-model>
@@ -47,26 +47,29 @@ Distributed under the terms of the GNU General Public Livense v2
     </livery>
   </model>
 
-  <!--
   <sound>
     <path>Aircraft/L1011/Sounds/L1011-sound.xml</path>
     <switch type = "bool">0</switch>
     <Evolume>1</Evolume>
   </sound>
--->
   
   <view>
     <internal archive="y">true</internal>
     <config>
       <x-offset-m archive="y">-0.5373</x-offset-m>
-      <y-offset-m archive="y">0.15</y-offset-m>
+      <y-offset-m archive="y">1.84</y-offset-m>
       <z-offset-m archive="y">-22.7399</z-offset-m>
       <pitch-offset-deg archive="y">-5.0</pitch-offset-deg>
-      <default-field-of-view-deg type="double">80.0</default-field-of-view-deg>
+      <default-field-of-view-deg type="double">110.0</default-field-of-view-deg>
     </config>
   </view>
   <chase-distance-m type="double">-80</chase-distance-m>
   
+  <systems>
+    <autopilot>
+	  <path>Aircraft/L1011/Systems/it-autoflight.xml</path>
+	</autopilot>
+  </systems>
   
   <menubar>
     <default>
@@ -106,7 +109,13 @@ Distributed under the terms of the GNU General Public Livense v2
 <nasal>
   <L1011> 
     <file>Aircraft/L1011/Nasal/liveries.nas</file>
+    <file>Aircraft/L1011/Nasal/reverse-thrust.nas</file>
+    <file>Aircraft/L1011/Nasal/systems.nas</file>
   </L1011>
+  <it2>
+	<file>Aircraft/L1011/Nasal/autoflight.nas</file>
+	<file>Aircraft/L1011/Nasal/autoflight-logic.nas</file>
+  </it2>
 </nasal> 
 
 </PropertyList>

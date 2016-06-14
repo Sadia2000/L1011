@@ -9,6 +9,10 @@
 	<path>Fuselage.ac</path> 
 
 
+<model>
+	<path>Aircraft/L1011/Models/Interior/interior.xml</path>
+</model>
+	
  <animation>
         <type>shader</type>
         <shader>chrome</shader>
