@@ -4,7 +4,7 @@
   <sim>
    <model>
     <livery>
-     <name type="string">Delta 80s</name>
+     <name type="string">Delta Airlines 80s (DAL)</name>
      <texture>Liveries/DL80.png</texture>
     </livery>
    </model>
