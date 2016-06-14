@@ -23,6 +23,12 @@
    <texture>Liveries/LTU90.png</texture>
  </animation>
 
+	<!-- Shaders -->
+	<effect>
+		<inherits-from>Effects/L1011-combShaders</inherits-from>
+		<!-- Engines -->
+                <object-name>engines_RR</object-name>
+	</effect>
 
 <animation>
   <type>spin</type>
