@@ -28,8 +28,9 @@ Distributed under the terms of the GNU General Public Livense v2
   -->
   
   <startup>
-    <!--<splash-texture>Aircraft/L1011/Splashs/splash-1.png</splash-texture>-->     <splash-texture>Aircraft/L1011/Splashs/L1011-splash.png</splash-texture>
-    <splash-title>Lockheed L1011-1 v0.1</splash-title>
+    <!--<splash-texture>Aircraft/L1011/Splashs/splash-1.png</splash-texture>-->
+     <splash-texture>Aircraft/L1011/Splashs/L1011-splash.png</splash-texture>
+    <splash-title>Lockheed</splash-title>
   </startup>
 
    <gui>
