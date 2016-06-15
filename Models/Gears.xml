@@ -107,94 +107,6 @@
 </animation>
 
 
-<!--Spin wheels-->
-<!--Front-->
-<animation>
-	<type>spin</type>
-	<object-name>gear_front</object-name>
-	<property>gear/gear[0]/rollspeed-ms</property>
-	<factor>10</factor>
-	<center>
-		<x-m>-16.35296</x-m>
-		<y-m>0</y-m>
-		<z-m>-4.06968</z-m>
-	</center>
-	<axis>
-		<x>0</x>
-		<y>-1</y>
-		<z>0</z>
-	</axis>
-</animation>
-
-<!--Left-->
-<animation>
-	<type>spin</type>
-	<object-name>gear_left_1</object-name>
-	<property>gear/gear[1]/rollspeed-ms</property>
-	<factor>10</factor>
-	<center>
-		<x-m>4.67082</x-m>
-		<y-m>-5.5877</y-m>
-		<z-m>-3.82244</z-m>
-	</center>
-	<axis>
-		<x>0</x>
-		<y>-1</y>
-		<z>0</z>
-	</axis>
-</animation>
-
-<animation>
-	<type>spin</type>
-	<object-name>gear_left_2</object-name>
-	<property>gear/gear[1]/rollspeed-ms</property>
-	<factor>10</factor>
-	<center>
-		<x-m>6.26725</x-m>
-		<y-m>-5.59564</y-m>
-		<z-m>-3.82004</z-m>
-	</center>
-	<axis>
-		<x>0</x>
-		<y>-1</y>
-		<z>0</z>
-	</axis>
-</animation>
- 
-<!--Right-->
-<animation>
-	<type>spin</type>
-	<object-name>gear_right_1</object-name>
-	<property>gear/gear[2]/rollspeed-ms</property>
-	<factor>10</factor>
-	<center>
-		<x-m>4.67082</x-m>
-		<y-m>5.5877</y-m>
-		<z-m>-3.82244</z-m>
-	</center>
-	<axis>
-		<x>0</x>
-		<y>-1</y>
-		<z>0</z>
-	</axis>
-</animation>
-
-<animation>
-	<type>spin</type>
-	<object-name>gear_right_2</object-name>
-	<property>gear/gear[2]/rollspeed-ms</property>
-	<factor>10</factor>
-	<center>
-		<x-m>6.26725</x-m>
-		<y-m>5.59564</y-m>
-		<z-m>-3.82004</z-m>
-	</center>
-	<axis>
-		<x>0</x>
-		<y>-1</y>
-		<z>0</z>
-	</axis>
-</animation>
  
 
 <!--Retract-->
@@ -578,4 +490,92 @@
 
 
 
+<!--Spin wheels-->
+<!--Front-->
+<animation>
+	<type>spin</type>
+	<object-name>gear_front</object-name>
+	<property>gear/gear[0]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>-16.35296</x-m>
+		<y-m>0</y-m>
+		<z-m>-4.06968</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<!--Left-->
+<animation>
+	<type>spin</type>
+	<object-name>gear_left_1</object-name>
+	<property>gear/gear[1]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>4.67082</x-m>
+		<y-m>-5.5877</y-m>
+		<z-m>-3.82244</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>spin</type>
+	<object-name>gear_left_2</object-name>
+	<property>gear/gear[1]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>6.26725</x-m>
+		<y-m>-5.59564</y-m>
+		<z-m>-3.82004</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+ 
+<!--Right-->
+<animation>
+	<type>spin</type>
+	<object-name>gear_right_1</object-name>
+	<property>gear/gear[2]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>4.67082</x-m>
+		<y-m>5.5877</y-m>
+		<z-m>-3.82244</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>spin</type>
+	<object-name>gear_right_2</object-name>
+	<property>gear/gear[2]/rollspeed-ms</property>
+	<factor>10</factor>
+	<center>
+		<x-m>6.26725</x-m>
+		<y-m>5.59564</y-m>
+		<z-m>-3.82004</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
 </PropertyList>
