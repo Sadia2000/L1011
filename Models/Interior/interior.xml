@@ -4,7 +4,7 @@
 
   <!-- FLIGHTDECK -->
 <model>
-  <path>Aircraft/L1011/Models/Interior/FlightDeck/Flightdeck.xml</path>
+  <path>Aircraft/L1011/Models/Interior/Flightdeck/Flightdeck.xml</path>
   <offsets>
     <x-m> -20.2 </x-m>
 	<z-m> -0.26  </z-m>
