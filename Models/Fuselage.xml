@@ -27,7 +27,7 @@
    <object-name>engine_rear_channel.001</object-name>
    <property-base>sim/model/livery</property-base>
    <texture-prop>texture</texture-prop>
-   <texture>Liveries/LTU90.png</texture>
+   <texture>Liveries/prototype.png</texture>
  </animation>
 
 	<!-- Shaders -->

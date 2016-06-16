@@ -8,7 +8,7 @@ kids 3
 OBJECT poly
 name "engine_GE"
 crease 44.0
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 2332
 1.5327711 -1.1265705 -10.8664055
@@ -20372,7 +20372,7 @@ kids 0
 OBJECT poly
 name "engine_GE_fan_l"
 crease 35.0
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 567
 -0.4800954 -3.4102397 10.4844141
@@ -24439,7 +24439,7 @@ kids 0
 OBJECT poly
 name "engine_GE_fan_r"
 crease 35.0
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 567
 -0.4800954 -3.4102397 -10.4844141
