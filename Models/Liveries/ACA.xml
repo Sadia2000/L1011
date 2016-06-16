@@ -4,7 +4,7 @@
   <sim>
    <model>
     <livery>
-     <name type="string">Air Canada (C-GAGF)</name>
+     <name type="string">Air Canada C-GAGF (ACA)</name>
      <texture>Liveries/ACA.png</texture>
     </livery>
    </model>

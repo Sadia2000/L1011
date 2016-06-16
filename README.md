@@ -1,6 +1,8 @@
 Flightgear's Lockheed TriStar L1011
 ========================
 
+![Screenshot](https://github.com/FGMEMBERS/L1011/blob/master/L1011.png)
+
 License: GPL2+
 See: ./COPYING
 

@@ -4,7 +4,7 @@
   <sim>
    <model>
     <livery>
-     <name type="string">Cathay Pacific (old)</name>
+     <name type="string">Cathay Pacific Original (CPA)</name>
      <texture>Liveries/Cathay-old.png</texture>
     </livery>
    </model>

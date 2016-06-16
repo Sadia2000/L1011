@@ -4,7 +4,7 @@
   <sim>
    <model>
     <livery>
-     <name type="string">Lockheed TriStar Prototype</name>
+     <name type="string">Lockheed TriStar (Prototype)</name>
      <texture>Liveries/prototype.png</texture>
     </livery>
    </model>
