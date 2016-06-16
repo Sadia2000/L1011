@@ -8,7 +8,7 @@ name "Blender_export__RR-RB211-22.ac"
 kids 6
 OBJECT poly
 name "engine_RR_fan_c"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 567
 24.2401810 0.7541922 -0.0949583
@@ -4074,7 +4074,7 @@ refs 3
 kids 0
 OBJECT poly
 name "engine_RR_fan_l"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 567
 -0.4800993 -3.4102376 10.4844208
@@ -8141,7 +8141,7 @@ kids 0
 OBJECT poly
 name "engine_RR_fan_l_blur"
 loc -5.4829612 -2.4874201 7.6486502
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 143
 5.0123734 0.1585469 1.8483696
@@ -9683,7 +9683,7 @@ refs 3
 kids 0
 OBJECT poly
 name "engine_RR_fan_r"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 567
 -0.4800988 -3.4102383 -10.4844160
@@ -13750,7 +13750,7 @@ kids 0
 OBJECT poly
 name "engine_RR_fan_r_blur"
 loc -5.4829602 -2.4874201 -7.6486502
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 143
 5.0123715 0.1585466 -4.0130897
@@ -15292,7 +15292,7 @@ refs 3
 kids 0
 OBJECT poly
 name "engines_RR"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 2332
 1.5327711 -1.1265705 -10.8664055

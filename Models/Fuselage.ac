@@ -10,7 +10,7 @@ kids 4
 OBJECT poly
 name "engine_rear_channel.001"
 loc 21.4919128 5.2566900 -0.0000003
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 256
 -7.6297669 0.0377149 -1.1029843
@@ -1842,7 +1842,7 @@ kids 0
 OBJECT poly
 name "rudder.001"
 loc 0.0000002 0.0000001 0.0000000
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 35
 26.3634148 4.6011329 -0.1701331
@@ -2003,7 +2003,7 @@ kids 0
 OBJECT poly
 name "Rumpf"
 loc 0.0000002 0.0000001 0.0000000
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 4040
 -2.8472650 -2.5305588 0.4167862
@@ -36239,7 +36239,7 @@ kids 0
 OBJECT poly
 name "Windshield"
 loc -25.3961868 0.4490330 0.0000000
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 206
 2.9861860 0.9136058 -1.4484810

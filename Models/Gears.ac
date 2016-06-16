@@ -9,7 +9,7 @@ name "Blender_export__Gears.ac"
 kids 16
 OBJECT poly
 name "gear_cover_f1"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 77
 -17.2033672 -2.4177594 0.1388185
@@ -453,7 +453,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_cover_f2"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 86
 -19.1674824 -2.2720270 -0.1265770
@@ -949,7 +949,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_cover_f3"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 56
 -17.2033672 -2.4212003 0.0000000
@@ -1245,7 +1245,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_cover_f4"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 65
 -17.2033672 -2.4177594 -0.1388281
@@ -1605,7 +1605,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_cover_l_i"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 96
 7.1098156 -2.3733864 2.2339129
@@ -2127,7 +2127,7 @@ refs 4
 kids 0
 OBJECT poly
 name "gear_cover_l_o"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 130
 4.8368773 -1.3907585 3.0126352
@@ -2856,7 +2856,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_cover_r_i"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 96
 7.1098156 -2.3733864 -2.2339129
@@ -3378,7 +3378,7 @@ refs 4
 kids 0
 OBJECT poly
 name "gear_cover_r_o"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 130
 4.8368773 -1.3907585 -3.0126343
@@ -4107,7 +4107,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_front"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 287
 -16.4818478 -4.0731111 0.5435172
@@ -7797,7 +7797,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_front_leg"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 271
 -16.5332851 -3.4268894 0.0382170
@@ -10737,7 +10737,7 @@ refs 4
 kids 0
 OBJECT poly
 name "gear_left_1"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 287
 4.4778218 -3.8246958 5.6114392
@@ -14427,7 +14427,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_left_2"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 287
 6.0782127 -3.8250687 5.6093435
@@ -18117,7 +18117,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_left_leg"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 316
 4.5223360 -3.9523427 4.7862172
@@ -21759,7 +21759,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_right_1"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 287
 4.4778199 -3.8247015 -5.6114354
@@ -25449,7 +25449,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_right_2"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 287
 6.0782175 -3.8250687 -5.6093440
@@ -29139,7 +29139,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gear_right_leg"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 316
 4.5223360 -3.9523427 -4.7862172

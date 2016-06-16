@@ -8,7 +8,7 @@ name "Blender_export__Tail.ac"
 kids 4
 OBJECT poly
 name "elevator_l"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 138
 27.4857254 0.9972373 10.0215664
@@ -853,7 +853,7 @@ refs 3
 kids 0
 OBJECT poly
 name "elevator_r"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 138
 27.4857254 0.9972373 -10.0215664
@@ -1699,7 +1699,7 @@ kids 0
 OBJECT poly
 name "rudder"
 loc 0.0000002 0.0000001 0.0000000
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 225
 26.3785095 4.6011467 -0.1693019
@@ -3417,7 +3417,7 @@ refs 4
 kids 0
 OBJECT poly
 name "trim"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 840
 24.6945629 1.0855935 10.0215673

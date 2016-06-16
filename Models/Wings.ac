@@ -7,7 +7,7 @@ name "Blender_export__Wings.ac"
 kids 29
 OBJECT poly
 name "aileron_l_i"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 123
 8.1626282 -0.3583566 9.9174385
@@ -766,7 +766,7 @@ refs 3
 kids 0
 OBJECT poly
 name "aileron_l_o"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 198
 13.9536228 0.7411607 21.4173927
@@ -2043,7 +2043,7 @@ refs 3
 kids 0
 OBJECT poly
 name "aileron_r_i"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 123
 8.1626301 -0.3583566 -9.9174366
@@ -2802,7 +2802,7 @@ refs 3
 kids 0
 OBJECT poly
 name "aileron_r_o"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 198
 13.9536266 0.7411607 -21.4173889
@@ -4079,7 +4079,7 @@ refs 3
 kids 0
 OBJECT poly
 name "f1"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 944
 10.0251856 -0.7732062 6.6744418
@@ -11970,7 +11970,7 @@ refs 3
 kids 0
 OBJECT poly
 name "f2i"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 504
 10.2887478 -0.3942823 9.7890224
@@ -16311,7 +16311,7 @@ refs 3
 kids 0
 OBJECT poly
 name "f2o"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 504
 10.2887478 -0.3942823 9.7890224
@@ -20652,7 +20652,7 @@ refs 3
 kids 0
 OBJECT poly
 name "f3i"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 504
 11.4703808 -0.1675106 12.2627316
@@ -24993,7 +24993,7 @@ refs 3
 kids 0
 OBJECT poly
 name "f3o"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 504
 11.5038919 -0.1804429 12.2627277
@@ -29334,7 +29334,7 @@ refs 3
 kids 0
 OBJECT poly
 name "f4"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 944
 13.3132343 0.1411166 -16.1078510
@@ -37225,7 +37225,7 @@ refs 3
 kids 0
 OBJECT poly
 name "f5i"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 504
 14.8920755 0.3848827 19.1527863
@@ -41566,7 +41566,7 @@ refs 3
 kids 0
 OBJECT poly
 name "f5o"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 504
 14.8920755 0.3848827 19.1527863
@@ -45907,7 +45907,7 @@ refs 3
 kids 0
 OBJECT poly
 name "flap_l_i"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 291
 7.7221818 -0.4223730 9.5323076
@@ -47773,7 +47773,7 @@ refs 4
 kids 0
 OBJECT poly
 name "flap_l_o"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 309
 9.2139492 -0.1598210 12.9447708
@@ -49760,7 +49760,7 @@ refs 4
 kids 0
 OBJECT poly
 name "flap_r_i"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 291
 7.7221837 -0.4223730 -9.5323057
@@ -51626,7 +51626,7 @@ refs 4
 kids 0
 OBJECT poly
 name "flap_r_o"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 309
 9.2139511 -0.1598210 -12.9447689
@@ -53613,7 +53613,7 @@ refs 4
 kids 0
 OBJECT poly
 name "sb1"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 39
 11.6664438 0.4664952 17.7862701
@@ -53811,7 +53811,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb10"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 50
 9.6347570 0.2087495 -14.1551447
@@ -54077,7 +54077,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb11"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 45
 10.9816370 0.3886330 -16.5758972
@@ -54317,7 +54317,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb12"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 39
 11.6664457 0.4664952 -17.7862701
@@ -54515,7 +54515,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb2"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 45
 10.9816351 0.3886330 16.5758972
@@ -54755,7 +54755,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb3"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 50
 9.6347551 0.2087495 14.1551466
@@ -55021,7 +55021,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb4"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 46
 8.9846153 0.1016965 12.9447708
@@ -55259,7 +55259,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb5"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 66
 7.4564409 -0.1414583 9.8151007
@@ -55648,7 +55648,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb6"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 77
 6.9654355 -0.4652005 6.4825401
@@ -56101,7 +56101,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb7"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 77
 6.9654365 -0.4652005 -6.4825392
@@ -56554,7 +56554,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb8"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 66
 7.4564428 -0.1414583 -9.8150988
@@ -56943,7 +56943,7 @@ refs 3
 kids 0
 OBJECT poly
 name "sb9"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 46
 8.9846172 0.1016965 -12.9447689
@@ -57181,7 +57181,7 @@ refs 3
 kids 0
 OBJECT poly
 name "wings"
-texture "LTU90.png"
+texture "prototype.png"
 texrep 1 1
 numvert 4649
 8.2306671 -0.5858580 -6.8663011
