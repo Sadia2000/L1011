@@ -8,7 +8,7 @@
   <author> Aeromatic v 0.9 </author>
   <filecreationdate> 2009-02-26 </filecreationdate>
   <version>$Revison: $</version>
-  <description> Models a L1011-1, based on data from L1011-500. </description>
+  <description> Models a L1011-1, based on data from L1011-500</description>
  </fileheader>
 
 <!--
@@ -63,15 +63,47 @@
  </metrics>
 
  <mass_balance>
-   <ixx unit="SLUG*FT2">   3900646 </ixx>
-   <iyy unit="SLUG*FT2">   8088379 </iyy>
-   <izz unit="SLUG*FT2">  13786442 </izz>
-   <emptywt unit="LBS" >    232749 </emptywt>
-   <location name="CG" unit="IN">
-     <x>   0.00 </x>
-     <y>   0.00 </y>
-     <z> -49.30 </z>
+   <ixx unit="SLUG*FT2">3900646</ixx>
+   <iyy unit="SLUG*FT2">8088379</iyy>
+   <izz unit="SLUG*FT2">13786442</izz>
+   <emptywt unit="LBS">247118</emptywt>
+   <location name="CG" unit="M">
+     <x>0.00</x>
+     <y>0.00</y>
+     <z>-1.25222</z>
    </location>
+ <pointmass name="Ballast_Engine1">
+     <location unit="M">
+      <x>-0.68996</x>
+      <y>-10.58844</y>
+      <z>-2.31989</z>
+     </location>
+   <weight unit="KG">4452</weight>
+  </pointmass>
+ <pointmass name="Ballast_Engine2">
+    <location unit="M">
+       <x>15.81330</x>
+       <y>0.00</y>
+       <z>5.35443</z>
+    </location>
+   <weight unit="KG">4452</weight>
+  </pointmass>
+ <pointmass name="Ballast_Engine3">
+    <location unit="M">
+      <x>-0.68996</x>
+      <y>10.58844</y>
+      <z>-2.31989</z>
+    </location>
+   <weight unit="KG">4452</weight>
+  </pointmass>
+ <pointmass name="Ballast_Fore">
+    <location unit="M">
+      <x>-17.92780</x>
+      <y>0.00</y>
+      <z>0.50</z>
+    </location>
+   <weight unit="KG">12500</weight>
+  </pointmass>
  </mass_balance>
 
  <ground_reactions>
@@ -177,80 +209,80 @@
  <propulsion>
 
    <engine file="RB211-524B">
-    <location unit="IN">
-      <x> -60.000 </x>
-      <y>-389.829 </y>
-      <z> -57.501 </z>
+    <location unit="M">
+      <x>-0.68996</x>
+      <y>-10.58844</y>
+      <z>-2.31989</z>
     </location>
     <orient unit="DEG">
-      <pitch> 0.00 </pitch>
-      <roll>   0.00 </roll>
-      <yaw>   0.00 </yaw>
+      <pitch>0.00</pitch>
+      <roll>0.00</roll>
+      <yaw>0.00</yaw>
     </orient>
     <feed>1</feed>
     <thruster file="direct">
-     <location unit="IN">
-      <x> -60.000 </x>
-      <y>-389.829 </y>
-      <z> -57.501 </z>
+     <location unit="M">
+      <x>-0.68996</x>
+      <y>-10.58844</y>
+      <z>-2.31989</z>
      </location>
      <orient unit="DEG">
-       <pitch> 0.00 </pitch>
-       <roll>   0.00 </roll>
-       <yaw>   0.00 </yaw>
+       <pitch>0.00</pitch>
+       <roll>0.00</roll>
+       <yaw>0.00</yaw>
      </orient>
     </thruster>
   </engine>
 
    <engine file="RB211-524B">
-    <location unit="IN">
-       <x>  700.00 </x>
-       <y>    0.00 </y>
-       <z>  200.00 </z>
+    <location unit="M">
+       <x>15.81330</x>
+       <y>0.00</y>
+       <z>5.35443</z>
     </location>
     <orient unit="DEG">
-      <pitch> 0.00 </pitch>
-      <roll>   0.00 </roll>
-      <yaw>   0.00 </yaw>
+      <pitch>0.00</pitch>
+      <roll>0.00</roll>
+      <yaw>0.00</yaw>
     </orient>
     <feed>0</feed>
     <feed>5</feed>
     <thruster file="direct">
-     <location unit="IN">
-       <x>  700.00 </x>
-       <y>    0.00 </y>
-       <z>  200.00 </z>
+     <location unit="M">
+       <x>15.81330</x>
+       <y>0.00</y>
+       <z>5.35443</z>
      </location>
      <orient unit="DEG">
-       <pitch> 0.00 </pitch>
-       <roll>   0.00 </roll>
-       <yaw>   0.00 </yaw>
+       <pitch>0.00</pitch>
+       <roll>0.00</roll>
+       <yaw>0.00</yaw>
      </orient>
     </thruster>
   </engine>
 
    <engine file="RB211-524B">
-    <location unit="IN">
-      <x> -60.000 </x>
-      <y> 389.829 </y>
-      <z> -57.501 </z>
+    <location unit="M">
+      <x>-0.68996</x>
+      <y>10.58844</y>
+      <z>-2.31989</z>
     </location>
     <orient unit="DEG">
-      <pitch> 0.00 </pitch>
-      <roll>   0.00 </roll>
-      <yaw>   0.00 </yaw>
+      <pitch>0.00</pitch>
+      <roll>0.00</roll>
+      <yaw>0.00</yaw>
     </orient>
     <feed>4</feed>
     <thruster file="direct">
-     <location unit="IN">
-      <x> -60.000 </x>
-      <y> 389.829 </y>
-      <z> -57.501 </z>
+     <location unit="M">
+      <x>-0.68996</x>
+      <y>10.58844</y>
+      <z>-2.31989</z>
      </location>
      <orient unit="DEG">
-       <pitch> 0.00 </pitch>
-       <roll>   0.00 </roll>
-       <yaw>   0.00 </yaw>
+       <pitch>0.00</pitch>
+       <roll>0.00</roll>
+       <yaw>0.00</yaw>
      </orient>
     </thruster>
   </engine>
@@ -671,9 +703,10 @@
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>
-              -0.20 -0.680
-               0.00 0.200
-             0.23    1.200
+              -5.00 0.000
+              -0.20 0.120
+               0.00 0.500
+               0.23 2.480
                0.60 0.600
             </tableData>
           </table>
@@ -686,7 +719,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.05000 </value>
+           <value>0.05000</value>
        </product>
     </function>
 
@@ -716,10 +749,9 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/elevator-pos-rad</property>
-           <value>0.2</value>
+           <value>0.18</value>
        </product>
     </function>
-
   </axis>
 
   <axis name="DRAG">
@@ -732,11 +764,11 @@
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>
-             -1.57       1.500
+             -1.57    1.500
              -0.26    0.025
               0.00    0.019
               0.26    0.025
-              1.57       1.500
+              1.57    1.500
             </tableData>
           </table>
        </product>
