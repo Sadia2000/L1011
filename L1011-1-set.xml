@@ -94,7 +94,7 @@ Distributed under the terms of the GNU General Public Livense v2
   <systems>
     <autopilot>
 	  <path>Aircraft/L1011/Systems/it-autoflight.xml</path>
-	</autopilot>
+    </autopilot>
   </systems>
   
   <menubar>
@@ -123,6 +123,19 @@ Distributed under the terms of the GNU General Public Livense v2
     </default>
   </menubar>
 </sim>
+
+<input>
+  <keyboard>
+   <key n="127">
+    <name>Delete</name>
+    <desc>Toggle Reversers</desc>
+    <binding>
+     <command>nasal</command>
+     <script>L1011.togglereverser()</script>
+    </binding>
+   </key>
+  </keyboard>
+ </input>
 
 <engines>
   <engine n="0">
