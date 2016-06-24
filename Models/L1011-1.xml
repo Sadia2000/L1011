@@ -72,7 +72,16 @@
  </offsets>
 </model>
 
-
+<!--Add Pushback location data and offsets here-->
+<model>
+  <name>Pushback</name>
+  <path>Models/Airport/Pushback/Goldhofert.xml</path>
+  <offsets>
+   <x-m>-25.0</x-m>
+   <y-m>0</y-m>
+   <z-m>-4.0</z-m>
+  </offsets>
+</model>
 
 <!-- ................................................... -->
 <!-- Livery select -->

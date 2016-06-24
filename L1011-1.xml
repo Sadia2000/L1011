@@ -349,6 +349,8 @@
 
  </propulsion>
 
+ <system file="pushback"/>
+
  <flight_control name="FCS: L1011-500">
 
   <channel name="Pitch">
@@ -1058,5 +1060,20 @@
   </axis>
 
  </aerodynamics>
+
+ <external_reactions>
+  <force name="pushback" frame="BODY">
+   <location unit="IN">
+    <x>  -139 </x>
+    <y>    0.0 </y>
+    <z>  -71.0 </z>
+   </location>
+   <direction>
+    <x>1</x>
+    <y>0</y>
+    <z>0</z>
+   </direction>
+  </force>
+ </external_reactions>
 
 </fdm_config>
