@@ -66,9 +66,9 @@ Distributed under the terms of the GNU General Public Livense v2
       <file type="string"/>
     </livery>
     <pushback>
-      <kp type="double">100</kp>
-      <ki type="double">25</ki>
-      <kd type="double">0</kd>
+      <kp type="double">500</kp>
+      <ki type="double">100</ki>
+      <kd type="double">10</kd>
       <position-norm type="double">0</position-norm>
     </pushback>
   </model>
