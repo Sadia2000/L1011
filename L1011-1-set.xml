@@ -9,15 +9,16 @@ Distributed under the terms of the GNU General Public Livense v2
 
 <sim>
   <description>Lockheed L1011 TriStar</description>
+  <long-description>I took stuff from other aircraft and shoved it in, that's all I did.</long-description>
   <aircraft-version>0.1</aircraft-version>
   <status>alpha</status>
   <rating>
-    <FDM type="int">1</FDM>
+    <FDM type="int">0</FDM>
     <systems type="int">0</systems>
     <cockpit type="int">0</cockpit>
-    <model type="int">2</model>
+    <model type="int">0</model>
   </rating>
-  <author>Models: Toryx, Improved by Hornet (trying to)</author>
+  <author>Original: Toryx, IAHM-COL and it0uchpods</author>
   <flight-model>jsb</flight-model>
   <aero>L1011-1</aero>
   <variant>1</variant>
