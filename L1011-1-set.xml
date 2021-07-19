@@ -8,7 +8,7 @@ Distributed under the terms of the GNU General Public Livense v2
 <PropertyList>
 
 <sim>
-  <description>Lockheed L1011-1</description>
+  <description>Lockheed L1011 TriStar</description>
   <aircraft-version>0.1</aircraft-version>
   <status>alpha</status>
   <rating>
@@ -17,7 +17,7 @@ Distributed under the terms of the GNU General Public Livense v2
     <cockpit type="int">0</cockpit>
     <model type="int">2</model>
   </rating>
-  <author>Models: Toryx</author>
+  <author>Models: Toryx, Improved by Hornet (trying to)</author>
   <flight-model>jsb</flight-model>
   <aero>L1011-1</aero>
   <variant>1</variant>
