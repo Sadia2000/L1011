@@ -28,8 +28,8 @@ Distributed under the terms of the GNU General Public Livense v2
   -->
   
   <startup>
-    <!--<splash-texture>Aircraft/L1011/Splashs/splash-1.png</splash-texture>-->
-     <splash-texture>Aircraft/L1011/Splashs/L1011-splash.png</splash-texture>
+    <!--<splash-texture>Aircraft/L1011/Splashs/splash-2.png</splash-texture>-->
+     <splash-texture>Aircraft/L1011/Splashs/splash-2.png</splash-texture>
     <splash-title>Lockheed</splash-title>
   </startup>
 
@@ -95,6 +95,10 @@ Distributed under the terms of the GNU General Public Livense v2
     <autopilot>
 	  <path>Aircraft/L1011/Systems/it-autoflight.xml</path>
     </autopilot>
+    <autopilot>
+          <name>Pushback</name>
+          <path>Aircraft/L1011/Systems/pushback.xml</path>
+    </autopilot>
   </systems>
   
   <menubar>
@@ -119,6 +123,13 @@ Distributed under the terms of the GNU General Public Livense v2
 	    <script>aircraft.livery.dialog.open()</script>
 	  </binding>
 	</item>
+   		<item>
+    		    <label>Pushback</label>
+    		    <binding>
+     			<command>dialog-show</command>
+     			<dialog-name>pushback</dialog-name>
+    		    </binding>
+   		</item>
       </menu>
     </default>
   </menubar>
