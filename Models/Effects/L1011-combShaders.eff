@@ -9,13 +9,6 @@
         <reflection-correction type="float">-0.05</reflection-correction>
         <reflection-type type="int">2</reflection-type>
         <ambient-correction type="float">0.1</ambient-correction>
-        <texture n="3">
-            <image>Aircraft/777/Models/Effects/lightmap-F.png</image>
-            <filter>linear-mipmap-linear</filter>
-            <wrap-s>clamp</wrap-s>
-            <wrap-t>clamp</wrap-t>
-            <internal-format>normalized</internal-format>
-        </texture>
         <texture n="5">
             <type>cubemap</type>
             <images>
@@ -29,7 +22,7 @@
         </texture>
         <reflection-rainbow type="float">0.0</reflection-rainbow>
         <reflection-fresnel type="float">0.0</reflection-fresnel>
-        <reflection-fresnel-factor type="float">0.5</reflection-fresnel-factor>
+        <reflection-fresnel-factor type="float">999999</reflection-fresnel-factor>
         <ambient_correction>0.5</ambient_correction>
     </parameters>
 </PropertyList>
