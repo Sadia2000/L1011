@@ -11,6 +11,16 @@
 		<min-m>0</min-m>
 		<max-m>2000</max-m>
 	</animation>
+
+	<model>
+		<path>Aircraft/L1011/Models/Interior/Flightdeck/cockpit.ac/</path>
+<offsets> 
+	<x-m>-3.7</x-m>
+	<y-m>  0.0 </y-m>
+	<z-m>  0.4</z-m>
+</offsets>
+	</model>
+
 	
 	<model>
 		<path>Aircraft/L1011/Models/Interior/Flightdeck/Instruments/Clock/clock.xml</path>
@@ -388,6 +398,15 @@
 			<y-m>0.608</y-m>
 			<z-m>0.962</z-m>
 			<pitch-deg>-10</pitch-deg>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/L1011/Models/Interior/Flightdeck/yokes.xml</path>
+		<offsets>
+			<x-m>-4</x-m>
+			<y-m>0</y-m>
+			<z-m>-0.1</z-m>
+			<pitch-deg>-0</pitch-deg>
 		</offsets>
 	</model>
 	
