@@ -1,7 +1,9 @@
-Flightgear's Lockheed TriStar L1011
+Hornet979/L1011
 ========================
 
 ![Screenshot](https://github.com/Hornet979/L1011/blob/master/L1011.png)
+
+Trying to "improve" the L1011, although I have almost no experience in aircraft
 
 License: GPL2+
 See: ./COPYING
