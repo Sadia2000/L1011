@@ -20,6 +20,17 @@
  </offsets>
 </model>
 
+<model>
+ <name>fuselage_interior</name>
+	<path>Aircraft/L1011/Models/fuselage_interior.xml</path>
+ <offsets>
+  <x-m> -0.46</x-m>
+  <y-m> 0.0</y-m>
+  <z-m> 0.77</z-m>
+ </offsets>
+</model>
+
+
 <!--Add Flightdeck data/information here-->
 <!--
 <model>
