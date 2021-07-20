@@ -9,8 +9,8 @@ Distributed under the terms of the GNU General Public Livense v2
 
 <sim>
   <description>Lockheed L1011 TriStar</description>
-  <long-description>I took stuff from other aircraft and shoved it in, that's all I did.</long-description>
-  <aircraft-version>0.1</aircraft-version>
+  <long-description>The Lockheed L1011 TriStar is a wide body trijet built by Lockheed.</long-description>
+  <aircraft-version>0.000000000000001</aircraft-version>
   <status>alpha</status>
   <rating>
     <FDM type="int">0</FDM>
