@@ -3,7 +3,7 @@ Hornet979/L1011
 
 ![Screenshot](https://github.com/Hornet979/L1011/blob/master/L1011.png)
 
-Don't download this, go download the original
+Don't download this, go download the original. I took the yokes from the 767, and seats from the TRD 744. Please spare my life for this.
 
 License: GPL2+
 See: ./COPYING
