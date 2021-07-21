@@ -5193,7 +5193,7 @@ refs 4
 kids 0
 OBJECT poly
 name "left_column"
-texture "yokes_2.png"
+texture "yokes_column.png"
 data 8
 Mesh.229
 crease 30.000000
@@ -44281,7 +44281,7 @@ refs 4
 kids 0
 OBJECT poly
 name "right_column"
-texture "yokes_2.png"
+texture "yokes_column.png"
 data 8
 Mesh.234
 crease 30.000000
