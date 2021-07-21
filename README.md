@@ -5,7 +5,7 @@ Hornet979/L1011
 
 - Yokes
 - Seats
-- Crude cockpit model
+- Cockpit model
 - Working pushback
 - Improved flightdeck textures
 - New sounds
