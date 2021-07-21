@@ -3,7 +3,7 @@ Hornet979/L1011
 
 ![Screenshot](https://github.com/Hornet979/L1011/blob/master/L1011.png)
 
-This is a project on uh improving the L1011 I guess
+trying to improve the L1011
 
 License: GPL2+
 See: ./COPYING
