@@ -25,9 +25,6 @@
 
 <model>
 	<path>Aircraft/L1011/Models/Interior/interior.xml</path>
-    <condition>
-            <property>sim/current-view/internal</property>
-    </condition>
  <offsets>
   <x-m> 0.0</x-m>
   <y-m> 0.0</y-m>
